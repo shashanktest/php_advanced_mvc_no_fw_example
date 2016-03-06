@@ -1,0 +1,11 @@
+{
+    "name": "cosmin/curs_php",
+    "description": "curs php",
+    "require": {
+        "cartalyst/sentinel": "^2.0",
+        "duncan3dc/blade": "^2.2"
+    },
+    "autoload": {
+        "classmap": ["."]
+    }
+}
