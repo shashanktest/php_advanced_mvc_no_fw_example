@@ -9,8 +9,25 @@ $("#newsletter").on('click', function(){
 });
 
 function addEmailToList(email){
-    
     $.ajax({
-        type: 'post'
+        type: 'POST',
+        url: '../library/AjaxListener.php',
+        data: {
+            controller: 'newsletter',
+            action: 'add',
+            dataToSend: {'email': email}
+        },
+        async: true,
+        dataType: 'json',
+        success: function(response){
+            console.log(response);
+            if(response == 1){
+                $("#newsletter_email").val("");
+            }
+        },
+        error: function(error){
+            console.log(error);
+            alert('try again');
+        }
     });
 }

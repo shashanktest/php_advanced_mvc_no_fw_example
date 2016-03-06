@@ -961,8 +961,9 @@
         <img data-text="Lorem ipsum something" src="img/logo.png">
         <img data-text="Lorem ipsum something" src="img/logo.png">
     </div>-->
-    <input type="text" value="" class="form">
-    <button type="button" class="btn btn-info btn-lg">Send</button>
+    
+    <input type="text" value="" id="newsletter_email" class="form">
+    <button type="button" id="newsletter" class="btn btn-info btn-lg">Send</button>
 
     <!-- Clear :) -->
     <div class="clear"></div>

@@ -268,6 +268,8 @@ return array(
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/illuminate/view/ViewServiceProvider.php',
     'MigrationCartalystSentinel' => $vendorDir . '/cartalyst/sentinel/src/migrations/2014_07_02_230147_migration_cartalyst_sentinel.php',
     'Model' => $baseDir . '/model/ModelModel.php',
+    'Newsletter' => $baseDir . '/model/NewsletterModel.php',
+    'NewsletterAjaxController' => $baseDir . '/ajaxController/NewsletterAjaxController.php',
     'StaticStringyTestCase' => $vendorDir . '/danielstjules/stringy/tests/StaticStringyTest.php',
     'StringyTestCase' => $vendorDir . '/danielstjules/stringy/tests/StringyTest.php',
     'Stringy\\StaticStringy' => $vendorDir . '/danielstjules/stringy/src/StaticStringy.php',
